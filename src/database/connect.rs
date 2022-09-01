@@ -1,6 +1,7 @@
 use crate::error::CustomError;
 use mysql::prelude::{AsStatement, Queryable};
 pub use mysql::Pool;
+pub use mysql::TxOpts;
 use mysql::{Opts, PooledConn};
 use crate::env::get_env;
 
