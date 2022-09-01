@@ -3,6 +3,7 @@ use mysql::prelude::{AsStatement, Queryable};
 pub use mysql::Pool;
 pub use mysql::TxOpts;
 use mysql::{Opts, PooledConn};
+pub use mysql_common;
 use crate::env::get_env;
 
 fn mysql_url() -> String {
